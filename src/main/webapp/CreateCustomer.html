@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+label{
+    width:100px;
+    display:inline-block;
+}
+#form{
+     border-radius:10px;
+     background:black;
+     color:white;
+     width:290px;
+     padding:4px;
+     }
+     h2{
+     text-align:center;
+     }
+     #submit{
+     width:100%;
+     margin-top:10px;
+     }
+     body{
+background-image: url('https://thumbs.dreamstime.com/b/drone-professional-flight-gps-83829913.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+     
+</style>
+</head>
+<body>
+<div id="form">
+<h2>Create new Account</h2>
+<form action="create" method="post">
+<label>customer_id</label>
+<input type="text" name="customer_id"><br><br>
+<label>customer_name</label>
+<input type="text" name="customer_name"><br><br>
+<label>email</label>
+<input type="text" name="email"><br><br>
+<label>phone_number</label>
+<input type="number" name="phone_number"><br><br>
+
+<label>booking_id</label>
+<input type="number" name="booking_id"><br><br>
+
+<label>created_time</label>
+<input type="number" name="created_time"><br><br>
+
+<label>drone_shot_name</label>
+<input type="text" name="drone_shot_name"><br><br>
+
+<input type="submit" name="Add" id="submit">
+</form>
+<br><a href="Customer.html"><input type="submit" value="Back"></a>
+</div>
+</body>
+</html>

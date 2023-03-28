@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+label{
+    width:100px;
+    display:inline-block;
+}
+#form{
+     border-radius:10px;
+     background:black;
+     color:white;
+     width:290px;
+     padding:4px;
+     }
+     h2{
+     text-align:center;
+     }
+     #submit{
+     width:100%;
+     margin-top:10px;
+     }
+     
+     body{
+background-image: url('https://thumbs.dreamstime.com/b/drone-professional-flight-gps-83829913.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+     
+</style>
+</head>
+<body>
+<div id="form">
+<h2>Show Customer</h2>
+<form action="ShowCustomer.jsp" method="post">
+<label>Enter Customer_ID</label>
+<input type="number" name="customer_id">
+<input type="submit" value="Show" id="submit">
+</form>
+<br><a href="OperationOnCustomer.html"><input type="submit" value="Back"></a>
+</div>
+</body>
+</html>
